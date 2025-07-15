@@ -1,0 +1,37 @@
+
+section {
+    margin: 40px;
+}
+.clearfix {
+    
+    margin: 0 25px;
+}
+
+.project {
+  margin: 20px 5px;
+  padding: 40px 0;
+}
+
+.footer {
+  background-color: #9171ba;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  align-items: center; /* Centraliza os itens na horizontal */
+}
+.footer h5 {
+  margin: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  section {
+    margin-top: 30%;
+    padding: 10px;
+  }
+
+
+}
+
+
+}

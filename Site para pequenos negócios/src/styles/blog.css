@@ -1,0 +1,176 @@
+
+
+.container-fluid img {
+    margin: 5px;
+    border-radius: 30px;
+    border: 3px solid #71ba91;
+    flex-shrink: 0;
+}
+
+.navbar-brand {
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* Estilos para a nav */
+.nav-container{
+  display: flex;
+  margin-top: 8%;
+  align-items: center;
+  padding: 30px;
+  gap: 10px; /* Espaçamento entre a imagem e o texto */
+}
+.nav-img {
+  width: 190px;
+  height: 190px;
+  border: 3px solid rgb(122, 125, 122);
+  border-radius: 100%; /* Transforma o contêiner em um círculo */
+}
+.nav-text {
+  max-width: 300px;
+  color: #1f132c;
+  font-size: 18px;
+  font-weight: 540;
+  font-family: cursive;
+}
+
+header {
+    margin: 15%;
+    padding: 40px 5px;
+}
+
+section {
+    margin-top: 8%;
+    padding-top: 60px;
+    background-color: #ffe3f0;
+}
+
+.row {
+  padding: 50px 30px;
+}
+
+.blog-post {
+  background-color: #ff69b4;
+}
+
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #444;
+  padding: 15px;
+}
+
+form input[type="text"],
+  form textarea {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 16px;    
+  }
+
+.centralizar {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: center;  /* centraliza na horizontal */
+}
+
+  form textarea {
+    resize: vertical; /* permite aumentar a altura */
+  }
+
+  form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+
+/* 🔧 Opcional: limite de largura do formulário */
+form {
+  width: 100%;
+  max-width: 420px;
+}
+
+.murinho-comentarios {
+  background-color: #ffe4ec;
+  border: 2px dashed #d63384;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.murinho-comentarios h5 {
+  color: #c2185b;
+  font-size: 20px;
+  margin-bottom: 10px;
+  justify-content: center;
+ }
+
+.murinho-comentarios p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.recado {
+  background-color: #ff69b4;
+  padding: 15px 20px;
+  border-left: 5px solid #e2aec8;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.recado p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.recado small {
+  color: #555;
+}
+
+button[type="submit"] {
+    background-color: #ec2679; /* Cor de fundo */
+    color: white;              /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #e6aac8; /* Cor ao passar o mouse */
+  }
+
+
+.footer {
+  background-color: #0b0b0c;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Altera o fluxo dos itens para uma coluna */
+  align-items: center; /* Centraliza os itens na horizontal */
+  margin-top: 10px; /* Adiciona margem superior para afastar do conteúdo principal */
+}
+
+.footer h5 {
+  color: #fff;
+  margin-top: 5px; /* Adiciona um espaço acima do h5 */
+}
+
+@media (max-width: 600px ) {
+  section {
+    margin-top: 20%;
+    
+}
+}

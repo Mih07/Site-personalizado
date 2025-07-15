@@ -1,0 +1,257 @@
+
+
+.container-fluid img {
+    margin: 5px;
+    border-radius: 30px;
+    border: 3px solid #71ba91;
+    flex-shrink: 0;
+}
+
+.navbar-brand {
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* Estilos para a nav */
+.nav-container{
+  display: flex;
+  margin-top: 8%;
+  align-items: center;
+  padding: 30px;
+  gap: 10px; /* Espaçamento entre a imagem e o texto */
+}
+.nav-img {
+  width: 190px;
+  height: 190px;
+  border: 3px solid rgb(122, 125, 122);
+  border-radius: 100%; /* Transforma o contêiner em um círculo */
+}
+.nav-text {
+  max-width: 300px;
+  color: #1f132c;
+  font-size: 18px;
+  font-weight: 540;
+  font-family: cursive;
+}
+
+.clearfix {
+    
+    margin: 0 25px;
+}
+
+.faixa-indicacao {
+  background-color: #ffe0f0;
+  color: #c2185b;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: 2px dashed #f06292;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  animation: destaque 1.8s infinite alternate;
+}
+
+@keyframes destaque {
+  0% { background-color: #ffe0f0; transform: scale(1); }
+  100% { background-color: #ffc1e3; transform: scale(1.02); }
+}
+
+.pagamento-planos {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.botoes-pagamento {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.botao-plano {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.botao-plano img {
+  height: 30px;
+}
+
+.botao-plano:hover {
+  background-color: #005bb5;
+}
+
+
+.testimonials {
+  padding: 20px;
+  text-align: center;
+  
+}
+.carousel {
+  max-width: 490px;
+  margin: 0 auto;
+  
+}
+.carousel-content {
+  height: 70%;
+  object-fit: cover;
+}
+
+.testimonial-content img {
+  width: 80px; /* Define o tamanho das imagens de rosto */
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+  
+}
+.carousel-caption {
+  display: block !important;
+  background: rgba(0, 0, 0, 0.6); /* Fundo escuro para destacar o texto */
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.link-patrocinador {
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+
+  .link-patrocinador.azul .verde .vermelho {
+    color: #0066cc;
+    border-color: #0066cc;
+  }
+
+  .link-patrocinador.azul:hover {
+    color: #f50909;
+    border-color: #f50909;
+  }
+
+  
+
+  .link-patrocinador.verde:hover {
+    color: #f50909;
+    border-color: #f50909;
+  }
+.link-patrocinador.vermelho:hover {
+    color: #f50909;
+    border-color: #f50909;
+  }
+.promo-destaque {
+  color: #d10000;
+  font-weight: bold;
+  animation: piscar 1s infinite;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+@keyframes piscar {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.preco {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 8px;
+}
+
+.preco-novo {
+  color: #d10000;
+  font-size: 1.1rem;
+}
+
+
+.footer {
+  background-color: #0b0b0c;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Altera o fluxo dos itens para uma coluna */
+  align-items: center; /* Centraliza os itens na horizontal */
+  margin-top: 10px; /* Adiciona margem superior para afastar do conteúdo principal */
+}
+
+.footer h5 {
+  color: #fff;
+  margin-top: 5px; /* Adiciona um espaço acima do h5 */
+}
+
+@media (max-width: 768px) {
+  .nav-container{
+  margin-top: 20%;
+  padding: 40px 5px;
+}
+
+.nav-text {
+  color: #9945f3;
+  font-size: 18px;
+}
+
+.testimonials {
+  padding: 10px;
+
+}
+.carousel {
+  width: 400px;
+
+}
+
+.carousel-item img {
+  max-width: 500px;
+  height: 350px;
+}
+
+.testimonial-content img {
+  width: 60px; /* Define o tamanho das imagens de rosto */
+  height: 60px;
+  
+}
+
+}
+
+@media (max-width: 390px) {
+
+.carousel {
+  width: 200px;
+  
+}
+
+.carousel-item img {
+  width: 300px;
+  height: 250px;
+}
+
+.testimonial-content img {
+  width: 60px; /* Define o tamanho das imagens de rosto */
+  height: 60px;
+  
+}
+}

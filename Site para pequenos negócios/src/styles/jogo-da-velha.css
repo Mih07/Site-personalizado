@@ -1,0 +1,72 @@
+
+
+.container-fluid img {
+    margin: 5px;
+    border-radius: 30px;
+    border: 3px solid #71ba91;
+    flex-shrink: 0;
+}
+
+.navbar-brand {
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Estilos para a nav */
+.nav-container{
+  display: flex;
+  margin-top: 8%;
+  align-items: center;
+  padding: 30px;
+  gap: 10px; /* Espaçamento entre a imagem e o texto */
+}
+.nav-img {
+  width: 180px;
+  height: 180px;
+  border: 3px solid rgb(122, 125, 122);
+  border-radius: 100%; /* Transforma o contêiner em um círculo */
+}
+.nav-text {
+  max-width: 300px;
+  color: #1f132c;
+  font-size: 18px;
+  font-weight: 540;
+  font-family: cursive;
+}
+
+.clearfix {
+    
+    margin: 0 25px;
+}
+
+.project {
+  margin: 10px 5px;
+  padding: 20px 0;
+}
+
+/* Estilos para a imagem em tela cheia */
+
+#project1 {
+    margin-top: 80px;
+    padding: 10px;
+}
+  
+  
+.footer {
+  background-color: #0b0b0c;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Altera o fluxo dos itens para uma coluna */
+  align-items: center; /* Centraliza os itens na horizontal */
+  margin-top: 10px; /* Adiciona margem superior para afastar do conteúdo principal */
+}
+
+.footer h5 {
+  color: #fff;
+  margin-top: 5px; /* Adiciona um espaço acima do h5 */
+}
